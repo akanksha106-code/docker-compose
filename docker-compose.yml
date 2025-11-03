@@ -1,0 +1,18 @@
+version: '3.8'
+services: 
+  movies:
+    image: movies:v1
+    ports:
+      - "91:80"
+  documentaries:
+    image: documentaries:v1
+    ports:
+      - "92:80"
+  animations:
+    image: animations:v1
+    ports:
+      - "93:80"
+  webseries:
+    image: webseries:v1
+    ports:
+      - "94:80"
